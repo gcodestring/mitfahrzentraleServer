@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mitfahrzentrale>
+    <users>
+        <person>
+            <name>Mandy</name>
+            <password>bananeeeee</password>
+            <email>mandy@mandy.deeeee</email>
+        </person>
+        <person hasRoute="true">
+            <name>guido</name>
+            <password>schori</password>
+            <email>guido@schori.de</email>
+        </person>
+        <person hasRoute="false">
+            <name>Franyo</name>
+            <password>verona</password>
+            <email>franyo@poth.de</email>
+        </person>
+        <person hasRoute="false">
+            <name>hans</name>
+            <password>hansihans</password>
+            <email>hans@online.de</email>
+        </person>
+    </users>
+    <fahrten>
+        <contact>
+            <mobil>23</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>23</startzeitpunkt>
+            <startpunkt>Berlin1</startpunkt>
+            <zielpunkt>Köln</zielpunkt>
+            <sitze>123123123123</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+        <mitfahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Hans Peter</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </mitfahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>2341111</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>234</startzeitpunkt>
+            <startpunkt>kkk22222</startpunkt>
+            <zielpunkt>kkkk11111</zielpunkt>
+            <sitze>234111</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+        <mitfahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Hans Peter</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </mitfahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>23422</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>2342221111</startzeitpunkt>
+            <startpunkt>Dortmund12</startpunkt>
+            <zielpunkt>Köln</zielpunkt>
+            <sitze>23</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+        <mitfahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Hans Peter</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Hans Peter</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Hans Peter</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Hans Peter</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </mitfahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>234</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>234</startzeitpunkt>
+            <startpunkt>ee</startpunkt>
+            <zielpunkt>ff</zielpunkt>
+            <sitze>234</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+        <mitfahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </mitfahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>234</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>234</startzeitpunkt>
+            <startpunkt>ee</startpunkt>
+            <zielpunkt>ff</zielpunkt>
+            <sitze>234</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>234</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>234</startzeitpunkt>
+            <startpunkt>ee</startpunkt>
+            <zielpunkt>ff</zielpunkt>
+            <sitze>234</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+        <mitfahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </mitfahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>213</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>12</startzeitpunkt>
+            <startpunkt>sdd</startpunkt>
+            <zielpunkt>ddd</zielpunkt>
+            <sitze>123</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+        <mitfahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+            <person hasRoute="false">
+                <name>Hans Peter</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </mitfahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>22222</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>sdf</startzeitpunkt>
+            <startpunkt>sdf</startpunkt>
+            <zielpunkt>sdf</zielpunkt>
+            <sitze>2222</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>123</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>23123</startzeitpunkt>
+            <startpunkt>asd</startpunkt>
+            <zielpunkt>sdf</zielpunkt>
+            <sitze>123</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>123</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>123</startzeitpunkt>
+            <startpunkt>dortmund</startpunkt>
+            <zielpunkt>köln</zielpunkt>
+            <sitze>123</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>213</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>23</startzeitpunkt>
+            <startpunkt>bayern</startpunkt>
+            <zielpunkt>bb</zielpunkt>
+            <sitze>23</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+        <mitfahrer>
+            <person hasRoute="false">
+                <name>Hans Peter</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </mitfahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>123</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>123</startzeitpunkt>
+            <startpunkt>bayern</startpunkt>
+            <zielpunkt>asd</zielpunkt>
+            <sitze>123</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+    </fahrten>
+    <fahrten>
+        <contact>
+            <mobil>234</mobil>
+        </contact>
+        <route>
+            <startzeitpunkt>2</startzeitpunkt>
+            <startpunkt>dortmund</startpunkt>
+            <zielpunkt>bayner</zielpunkt>
+            <sitze>324</sitze>
+        </route>
+        <fahrer>
+            <person hasRoute="false">
+                <name>Sascha Lemke</name>
+                <password>passwort</password>
+                <email>email@email.com</email>
+            </person>
+        </fahrer>
+    </fahrten>
+</mitfahrzentrale>

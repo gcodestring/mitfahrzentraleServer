@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="mitfahrzentrale">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="users"/>
+        <xs:element maxOccurs="unbounded" ref="fahrten"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="users">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="person"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fahrten">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="contact"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="route"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="fahrer"/>
+        <xs:element minOccurs="0" ref="mitfahrer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="route">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="startzeitpunkt"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="startpunkt"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="zielpunkt"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="kfznamme"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="sitze"/>
+        <xs:element minOccurs="0" ref="zwichenstopp"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="startzeitpunkt" type="xs:string"/>
+  <xs:element name="startpunkt" type="xs:NCName"/>
+  <xs:element name="zielpunkt" type="xs:NCName"/>
+  <xs:element name="kfznamme" type="xs:string"/>
+  <xs:element name="sitze" type="xs:integer"/>
+  <xs:element name="zwichenstopp" type="xs:string"/>
+  <xs:element name="fahrer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="person"/>
+        <xs:element minOccurs="0" ref="contact"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mitfahrer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="person"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="person">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" ref="name"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="password"/>
+        <xs:element minOccurs="1" maxOccurs="1" ref="email"/>
+      </xs:sequence>
+      <xs:attribute name="hasRoute" type="xs:boolean"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:NCName"/>
+  <xs:element name="password" type="xs:NCName"/>
+  <xs:element name="email" type="xs:string"/>
+  <xs:element name="contact">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="mobil"/>
+        <xs:element ref="telefon"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mobil" type="xs:integer"/>
+  <xs:element name="telefon" type="xs:integer"/>
+</xs:schema>
