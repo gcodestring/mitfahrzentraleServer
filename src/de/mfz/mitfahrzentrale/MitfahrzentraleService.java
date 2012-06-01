@@ -21,8 +21,8 @@ public class MitfahrzentraleService
     private ObjectFactory ob = new ObjectFactory();
     private JAXBContext context;
     private Mitfahrzentrale mfz;
-    private final String INPUTFILE = "C:/Users/netro/Documents/NetBeansProjects/Server/src/mfz.xml";
-    private final String OUTPUTFILE = "C:/Users/netro/Documents/NetBeansProjects/Server/src/mfz.xml";
+    private final String INPUTFILE = "";
+    private final String OUTPUTFILE = "";
     
    /**
     * Gibt alle Daten der XML Datei aus.
